@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#f8f8f8]">
+ <div class="max-w-[1150px] mx-auto bg-white min-h-screen " >
+         <!-- Header  -->
+     
+ <header class="w-full bg-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-5">
+    <div class="flex justify-between items-center gap-4">
+      <img src="Images/logo.png" alt="Logo" class="w-[110px] md:w-[180px] h-auto">
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center gap-10">
+        <ul class="flex gap-8 text-[14px] text-[#1D1E25]">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our App</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <div class="flex gap-5">
+          <button class="text-[#1D1E25] font-medium">Log in</button>
+          <button class="bg-[#FF6D00] text-white px-6 py-2 rounded-lg">Sign up</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile nav  -->
+    <nav class="md:hidden pt-4 mt-4 border-t border-[#EBEAED]">
+      <ul class="flex flex-col gap-3 text-sm text-[#1D1E25]">
+        <li><a href="#" class="block py-1">Home</a></li>
+        <li><a href="#" class="block py-1">About Us</a></li>
+        <li><a href="#" class="block py-1">Our App</a></li>
+        <li><a href="#" class="block py-1">Contacts</a></li>
+      </ul>
+      <div class="flex gap-3 mt-4">
+        <button class="flex-1 border border-[#EBEAED] rounded-lg py-2">Log in</button>
+        <button class="flex-1 bg-[#FF6D00] text-white rounded-lg py-2">Sign up</button>
+      </div>
+    </nav>
+  </div>
+</header>
+   <!-- Hero Section Start  -->
+ <section class="px-4 sm:px-6 md:px-20 py-10 md:py-20 flex flex-col-reverse md:flex-row justify-between items-center gap-8 md:gap-10">
+  
+    <!-- Left side content -->
+  <div class="w-full md:w-1/2 text-center md:text-left">
+        <h1 class="text-[32px] sm:text-[40px] md:text-[64px] font-bold leading-tight">We boost growth for your startup business</h1>
+        <p class="text-black mt-6 text-[15px] sm:text-[16px] md:text-[18px]">Our goal is to help you with high-quality creative services for your startup business.</p>
+      <!-- Button Get Start   -->
+     <div class="flex flex-col sm:flex-row items-center sm:items-center gap-4 sm:gap-6 mt-8">
+           <button class="bg-[#ff6600] text-white px-8 py-3 rounded-full w-full sm:w-auto" type="button">
+            Get Started
+          </button>
+
+           <div class="flex items-center justify-center w-full sm:w-auto">
+               <img src="Images/Learn-More1.png" alt="Play" class="w-[150px] sm:w-[169px] h-auto">
+          </div>
+    </div>
+ </div>
+
+     <!-- Right side content -->
+    <div class="w-full md:w-1/2 mb-6 md:mb-0">
+        <img src="Images/hero.png" alt="Hero Image" class="w-full h-auto max-w-[520px] mx-auto md:mx-0">
+    </div>
+</section>
+       <!-- Hero Section End -->
+    <!-- Service  Our Vision & Our Goal Section -->
+
+ <section class=" p-6 md:px-20 py-16">
+    <!-- Title -->
+    <div class="text-center mb-12">
+        <p class="text-[14px] text-gray-400 tracking-[0.5em] uppercase mb-4">SERVICE</p>
+        <h2 class="text-[32px] md:text-[48px] font-light">Our Vision & Our Goal</h2>
+    </div>
+<!-- Cards Grid -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+
+ <!-- Card 1: Graphic Design  -->
+    <div class="bg-white rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.07)] p-6 sm:p-8 md:p-10 text-center w-full">
+      <img src="Images/Icon1.png" class="w-16 h-16 mx-auto mb-6 object-contain" alt="Graphic Design">
+      <h3 class="font-bold text-[20px] mb-4">Graphic Design</h3>
+      <p class="text-gray-500 text-[14px] leading-relaxed mb-6">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.
+      </p>
+      <button class="bg-[#ff4500] hover:bg-orange-600 text-white px-8 py-2 rounded-lg text-[14px] font-medium w-full sm:w-auto">
+        Learn
+      </button>
+    </div>
+
+    <!-- Card 2: Video Editing -->
+    <div class="bg-white rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.07)] p-6 sm:p-8 md:p-10 text-center w-full">
+       <img src="Images/Video.png" class="w-16 h-16 mx-auto mb-6 object-contain" alt="Video Editing">
+       <h3 class="font-bold text-[20px] mb-4">Video Editing</h3>
+        <p class="text-gray-500 text-[14px] leading-relaxed mb-6">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.
+       </p>
+       <button class="bg-[#ff4500] hover:bg-orange-600 text-white px-8 py-2 rounded-lg text-[14px] font-medium w-full sm:w-auto">
+        Learn
+       </button>
+    </div>
+
+     <!-- Card 3:Digital Marketing -->
+    <div class="bg-white rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.07)] p-6 sm:p-8 md:p-10 text-center w-full">
+        <img src="Images/Chart.png" class="w-16 h-16 mx-auto mb-6 object-contain" alt="Digital Marketing">
+        <h3 class="font-bold text-[20px] mb-4">Digital Marketing</h3>
+        <p class="text-gray-500 text-[14px] leading-relaxed mb-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.
+        </p>
+        <button class="bg-[#ff4500] hover:bg-orange-600 text-white px-8 py-2 rounded-lg text-[14px] font-medium w-full sm:w-auto">
+          Learn
+        </button>
+    </div>
+  </section>
+
+      <!-- Blocks and Components Section -->
+   <section class="px-4 sm:px-6 md:px-20 py-16 flex flex-col md:flex-row gap-8 items-center">
+        <div class="w-full md:w-1/2 text-center md:text-left order-2 md:order-1">
+           <h2 class="text-2xl sm:text-3xl font-bold">Many Blocks and Components</h2>
+           <p class="text-sm text-gray-500 mt-4">Startup Framework contains components and complex blocks which can easily be integrated into almost any design.</p>
+           <button class="mt-8 md:mt-10 border border-black rounded-full px-6 py-2 text-sm w-full sm:w-auto">Explore</button>
+        </div>
+        <div class="w-full md:w-1/2 order-1 md:order-2">
+    <img src="Images/chair.png" class="w-full h-[260px] sm:h-[320px] md:h-[385px] object-cover rounded-xl" alt="chair">
+  </div>
+   </section>
+
+        <!-- Testimonial Section -->
+    <section class="p-6 md:px-20 py-16">
+      <p class="text-center text-[10px] tracking-[5px] text-gray-400 uppercase">TESTIMONIAL</p>
+      <h2 class="text-2xl font-bold text-center mb-12">What Clients Say About Us</h2>
+        <!-- Cards Grid -->
+     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+          <!-- Card 1 -->
+          <div class="flex gap-4">
+            <img src="Images/User1.png" alt="user1" class="size-10 rounded-lg object-cover">
+            <div>
+               <p class="text-[13px] text-gray-600 leading-5" >Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support.</p>
+               <p class="text-[10px] tracking-widest text-gray-400 mt-4 uppercase">Rayhan Curran</p>
+            </div>
+          </div>
+
+            <!-- Card 2 -->
+          <div class="flex gap-4">
+              <img src="Images/User2.png" alt="User2" class="h-10 w-10 rounded-lg object-cover">
+            <div>
+               <p class="text-[13px] text-gray-600 leading-5">Aa a business targeting high net worth individuals,we were looking for a slick, cool and mini-malistic design for our website.</p>
+                <p class="text-[10px] text-gray-400 tracking-widest mt-4 uppercase"> Kayley Frame</p>
+             </div>
+          </div>
+
+           <!-- Card 3 -->
+          <div class="flex gap-4">
+              <img src="Images/User3.png" alt="User3" class="h-10 w-10 rounded-lg object-cover">
+            <div>
+               <p class="text-[13px] text-gray-600 leading-5">The most important part of the Startup Framework is the samples. </p>
+                <p class="text-[10px] text-gray-400 tracking-widest mt-4 uppercase"> Gene Whitfield </p>
+             </div>
+          </div>
+
+           <!-- Card 4 -->
+          <div class="flex gap-4">
+              <img src="Images/User4.png" alt="User4" class="h-10 w-10 rounded-lg object-cover">
+             <div>
+                <p class="text-[13px] text-gray-600 leading-5">I've built my website with Startup just in one day, and it was ready-to-go.</p>
+                <p class="text-[10px] text-gray-400 tracking-widest mt-4 uppercase"> Allan Kim</p>
+             </div>
+          </div>
+      </div>
+    </section>
+
+     <!-- Meet The Team Section -->
+  <section class="px-4 sm:px-6 md:px-20 py-16 text-center" >
+        <p class="text-[10px] text-gray-400 tracking-[5px] uppercase">Our Team</p>
+        <h2 class="text-2xl font-bold mt-2 mb-12">Meet The Team</h2>
+
+         <!-- Team Members Grid -->
+                <!-- এই div টা হলো Parent, এটা পাশাপাশি করবে -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto px-6">
+
+       <!-- Member 1  -->
+  <div class="border border-[#EBEAED] rounded-xl overflow-hidden">
+    <div class="p-8 text-center">
+      <img src="Images/m1.png" alt="Vanessa Laird" class="w-20 h-20 rounded-full mx-auto">
+      <h4 class="font-bold mt-4">Vanessa Laird</h4>
+      <p class="text-xs text-gray-400">UI DESIGNER</p>
+    </div>
+    <div class="flex border-t border-[#EBEAED]">
+      <div class="flex-1 py-3 border-r border-[#EBEAED] text-center text-xs"></div>
+      <div class="flex-1 py-3 border-r border-[#EBEAED] text-center text-xs"></div>
+      <div class="flex-1 py-3 text-center text-xs"></div>
+    </div>
+  </div>
+
+      <!-- Member 2 -->
+  <div class="border border-[#EBEAED] rounded-xl overflow-hidden">
+    <div class="p-8 text-center">
+      <img src="Images/m2.png" alt="Mason Campbell" class="w-20 h-20 rounded-full mx-auto">
+      <h4 class="font-bold mt-4">Mason Campbell</h4>
+      <p class="text-xs text-gray-400">UI DESIGNER</p>
+    </div>
+    <div class="flex border-t border-[#EBEAED]">
+      <div class="flex-1 py-3 border-r border-[#EBEAED] text-center text-xs"></div>
+      <div class="flex-1 py-3 border-r border-[#EBEAED] text-center text-xs"></div>
+      <div class="flex-1 py-3 text-center text-xs"></div>
+    </div>
+  </div>
+
+            <!-- Member 3 -->
+  <div class="border border-[#EBEAED] rounded-xl overflow-hidden">
+    <div class="p-8 text-center">
+      <img src="Images/m3.png" alt="Irea Evans" class="w-20 h-20 rounded-full mx-auto">
+      <h4 class="font-bold mt-4">Irea Evans</h4>
+      <p class="text-xs text-gray-400">CLIENT MANAGER</p>
+    </div>
+    <div class="flex border-t border-[#EBEAED]">
+      <div class="flex-1 py-3 border-r border-[#EBEAED] text-center text-xs"></div>
+      <div class="flex-1 py-3 border-r border-[#EBEAED] text-center text-xs"></div>
+      <div class="flex-1 py-3 text-center text-xs"></div>
+    </div>
+  </div>
+</div>
+</section>
+
+       <!-- Our Team Section  -->
+ <section class="py-20 max-w-5xl mx-auto px-4 sm:px-6">
+  <div class="text-center mb-16">
+    <p class="text-xs tracking-[5px] text-gray-400">OUR TEAM</p>
+    <h2 class="text-3xl sm:text-4xl font-bold mt-2">Subscribe Our Newsletter</h2>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
+         <!-- left side -->
+    <div class="flex justify-center">
+      <img src="Images/newsletter.png" alt="newsletter" class="w-full max-w-[350px]">
+    </div>
+
+    <!-- Right Side Text + Input -->
+    <div class="text-center md:text-left">
+      <p class="text-sm text-gray-500 leading-6">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+      </p>
+
+      <!-- Input -->
+      <div class="mt-8">
+        <input type="email" placeholder="Your E-mail here..."
+  class="w-full px-8 py-5 rounded-full bg-white shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-gray-100 outline-none text-[15px] text-[#1D1E25] placeholder:text-[#1D1E25] placeholder:font-medium">
+      </div>
+
+      <!-- Button -->
+      <button class="w-full mt-4 bg-[#FF6D00] hover:bg-[#e66000] text-white py-4 rounded-lg font-bold text-sm transition">
+        Subscribe Our Newsletter
+      </button>
+    </div>
+  </div>
+</section> 
+
+         <!-- Footer -->
+<footer class="border-t border-[#EBEAED] py-8">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row justify-between items-center gap-6 md:gap-4">
+    <div class="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 text-center sm:text-left">
+      <img src="Images/logo.png" alt="Epixelab Logo" class="w-[60px] md:w-[80px] h-auto">
+      <p class="text-[14px] text-[#1D1E25]">© 2020 Epixelab. All rights reserved.</p>
+    </div>
+    <ul class="flex flex-wrap justify-center gap-4 sm:gap-8 text-[14px] text-[#1D1E25] font-medium">
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">How it Works</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+  </div>
+
+  <!-- Footer Description -->
+   <div class="py-8">
+    <p class="text-center text-[13px] text-[#7E7E7E]/60 max-w-3xl mx-auto px-4 sm:px-6">
+      Startup Framework contains components and complex blocks which can easily be integrated into almost any design.
+    </p>
+  </div>
+ </footer> 
+</div>
+ </body>
+</html>
